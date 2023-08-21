@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="575.0" style="-fx-background-color: #FFFAF0;" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.depositController">
+   <children>
+      <Label fx:id="atmMACHINEl" style="-fx-background-color: #F8F8FF;" text="ATM Machine">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="30.0" left="120.0" right="120.0" top="30.0" />
+         </VBox.margin>
+      </Label>
+      <Label fx:id="depositelabel" text="Deposit">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="240.0" />
+         </VBox.margin>
+      </Label>
+      <TextField fx:id="nameDepositTextField" prefHeight="31.0" prefWidth="384.0" promptText="Enter Your Name">
+         <VBox.margin>
+            <Insets bottom="30.0" left="120.0" right="150.0" top="30.0" />
+         </VBox.margin>
+      </TextField>
+      <TextField fx:id="amountDepositTextField" promptText="Enter Your Amount">
+         <VBox.margin>
+            <Insets bottom="30.0" left="120.0" right="150.0" />
+         </VBox.margin>
+      </TextField>
+      <Button fx:id="okDepositeButton" mnemonicParsing="false" prefHeight="39.0" prefWidth="159.0" text="Deposit">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="200.0" />
+         </VBox.margin>
+      </Button>
+      <Button fx:id="HomeDepoButton" mnemonicParsing="false" prefHeight="39.0" prefWidth="158.0" text="Home">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="200.0" top="15.0" />
+         </VBox.margin>
+      </Button>
+      <Button fx:id="exitDepositeButton" mnemonicParsing="false" prefHeight="39.0" prefWidth="159.0" style="-fx-background-color: #FF6347;" text="Exit">
+         <VBox.margin>
+            <Insets left="200.0" top="15.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>
